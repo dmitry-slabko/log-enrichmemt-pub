@@ -6,18 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{15992460-1144-44FF-9BF3-A756F1A9D3F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Article", "Article", "{BEA6EB94-607E-436F-890F-3C3C16AA7B18}"
-	ProjectSection(SolutionItems) = preProject
-		article\logged-data-sample.json = article\logged-data-sample.json
-		article\benchmark-results.txt = article\benchmark-results.txt
-		article\00 - content.md = article\00 - content.md
-		article\01 - preface.md = article\01 - preface.md
-		article\02 - Serilog existing enrichers.md = article\02 - Serilog existing enrichers.md
-		article\03 - Custom log enricher sample.md = article\03 - Custom log enricher sample.md
-		article\04 - Performance considerations.md = article\04 - Performance considerations.md
-		article\05 - Conclusion.md = article\05 - Conclusion.md
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
