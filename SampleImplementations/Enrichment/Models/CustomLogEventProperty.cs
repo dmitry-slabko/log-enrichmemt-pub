@@ -3,7 +3,7 @@ using Serilog.Events;
 
 namespace SampleImplementations.Enrichment.Models;
 
-public struct CustomLogEventProperty {
+public sealed class CustomLogEventProperty {
 	private LogEventProperty? propertyValue;
 
 	public CustomLogEventProperty(string property, object value, LogEventLevel level) {

@@ -35,6 +35,7 @@ public class LogEnrichmentTests {
 	
 	private void WriteLogs() {
 		Log.Logger.Information("Test message at {Timestamp}", DateTimeOffset.Now);
+		Log.Logger.Information("Test message 2 at {Timestamp}", DateTimeOffset.Now);
 	}
 
 	[Fact]
